@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RStudio on JOSH P. SAWYER</title>
+    <link>/tags/rstudio/</link>
+    <description>Recent content in RStudio on JOSH P. SAWYER</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Fri, 07 Dec 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/rstudio/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>R, Excel and PostgreSQL</title>
+      <link>/post/r-excel-and-postgresql/</link>
+      <pubDate>Fri, 07 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/r-excel-and-postgresql/</guid>
+      <description>I deal with a lot of numerical data at work, and because it&amp;rsquo;s a corporate environment, that data comes more often than not in the form of an .xlsx or .csv file. As it gets passed around, it&amp;rsquo;s manipulated to the point that it can no longer be trusted in terms of content. Creating the original file is also a very manual process. The less human-guided work which needs to be done to get a forecast or analysis file production ready.</description>
+    </item>
+    
+  </channel>
+</rss>
