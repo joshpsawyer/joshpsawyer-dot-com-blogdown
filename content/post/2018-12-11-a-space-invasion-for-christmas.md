@@ -97,7 +97,7 @@ I sent the game off to Mark and he reported back - no sound in Safari. The secon
 
 ## iOS Requires A User to Invoke Audio
 
-On Windows, I can preload an <audio> tag and play it as soon as the game begins - not so with iOS, which specifially requires tying it to a user event. [This blog entry explains the issue succinctly](http://blog.gopherwoodstudios.com/2012/07/enabling-html5-audio-playback-on-ios.html).
+On Windows, I can preload an ```<audio>``` tag and play it as soon as the game begins - not so with iOS, which specifially requires tying it to a user event. [This blog entry explains the issue succinctly](http://blog.gopherwoodstudios.com/2012/07/enabling-html5-audio-playback-on-ios.html).
 
 The fix is simple: I already had an event listener waiting for keyboard input, so I tied audio loading to that first 'enter' which allowed me to play it at from code without further user interaction. I tied an explicit ```loadSounds()``` function to a keydown event listener.
 

@@ -400,7 +400,7 @@ function SoundPool(maxSize, src) {
 
 <h2 id="ios-requires-a-user-to-invoke-audio">iOS Requires A User to Invoke Audio</h2>
 
-<p>On Windows, I can preload an <audio> tag and play it as soon as the game begins - not so with iOS, which specifially requires tying it to a user event. <a href="http://blog.gopherwoodstudios.com/2012/07/enabling-html5-audio-playback-on-ios.html" target="_blank">This blog entry explains the issue succinctly</a>.</p>
+<p>On Windows, I can preload an <code>&lt;audio&gt;</code> tag and play it as soon as the game begins - not so with iOS, which specifially requires tying it to a user event. <a href="http://blog.gopherwoodstudios.com/2012/07/enabling-html5-audio-playback-on-ios.html" target="_blank">This blog entry explains the issue succinctly</a>.</p>
 
 <p>The fix is simple: I already had an event listener waiting for keyboard input, so I tied audio loading to that first &lsquo;enter&rsquo; which allowed me to play it at from code without further user interaction. I tied an explicit <code>loadSounds()</code> function to a keydown event listener.</p>
 
