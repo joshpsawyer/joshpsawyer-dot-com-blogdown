@@ -5,14 +5,14 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "1212703080",
+    "hash" : "0",
     "id" : "686930BD",
     "lastKnownWriteTime" : 1544393930,
     "last_content_update" : 1544393930,
-    "path" : "C:/code/R/jpsawyer/config.toml",
+    "path" : "C:/code/R/joshpsawyer_hugo_site/config.toml",
     "project_path" : "config.toml",
     "properties" : {
-        "cursorPosition" : "0,0",
+        "cursorPosition" : "17,23",
         "scrollLine" : "0"
     },
     "relative_order" : 1,
