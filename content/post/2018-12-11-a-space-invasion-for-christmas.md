@@ -118,6 +118,6 @@ function loadSounds() {
 ```
 and the audio was working.
 
-The final project is visible - and playable - on [GitHub](https://github.com/joshpsawyer/space-invaders-xmas). For licensing reasons, the background music is a public domain midi, but it is particularly awesome if you're playing it with [Father Christmas by The Kinks](https://www.youtube.com/watch?v=l-oVPVsCqs4).
+The final code, simple as it may be, is available on [GitHub](https://github.com/joshpsawyer/space-invaders-xmas). For licensing reasons, the background music is a public domain midi, but it is particularly awesome if you're playing it with [Father Christmas by The Kinks](https://www.youtube.com/watch?v=l-oVPVsCqs4).
 
 <iframe src="https://giphy.com/embed/d2Zktmc1QMCTXtfi" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>

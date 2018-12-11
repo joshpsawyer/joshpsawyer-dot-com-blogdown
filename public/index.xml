@@ -116,7 +116,7 @@ function SoundPool(maxSize, src) {
 
 &lt;p&gt;and the audio was working.&lt;/p&gt;
 
-&lt;p&gt;The final project is visible - and playable - on &lt;a href=&#34;https://github.com/joshpsawyer/space-invaders-xmas&#34; target=&#34;_blank&#34;&gt;GitHub&lt;/a&gt;. For licensing reasons, the background music is a public domain midi, but it is particularly awesome if you&amp;rsquo;re playing it with &lt;a href=&#34;https://www.youtube.com/watch?v=l-oVPVsCqs4&#34; target=&#34;_blank&#34;&gt;Father Christmas by The Kinks&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The final code, simple as it may be, is available on &lt;a href=&#34;https://github.com/joshpsawyer/space-invaders-xmas&#34; target=&#34;_blank&#34;&gt;GitHub&lt;/a&gt;. For licensing reasons, the background music is a public domain midi, but it is particularly awesome if you&amp;rsquo;re playing it with &lt;a href=&#34;https://www.youtube.com/watch?v=l-oVPVsCqs4&#34; target=&#34;_blank&#34;&gt;Father Christmas by The Kinks&lt;/a&gt;.&lt;/p&gt;
 
 &lt;iframe src=&#34;https://giphy.com/embed/d2Zktmc1QMCTXtfi&#34; width=&#34;480&#34; height=&#34;360&#34; frameBorder=&#34;0&#34; class=&#34;giphy-embed&#34; allowFullScreen&gt;&lt;/iframe&gt;
 </description>
