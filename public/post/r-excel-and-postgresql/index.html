@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
@@ -17,10 +15,10 @@
   
     
   
-  <meta name="description" content="Personal website of Josh P. Sawyer.">
+  <meta name="description" content="I deal with a lot of numerical data at work, and because it&rsquo;s a corporate environment, that data comes more often than not in the form of an .xlsx or .csv file. As it gets passed around, it&rsquo;s manipulated to the point that it can no longer be trusted in terms of content. Creating the original file is also a very manual process. The less human-guided work which needs to be done to get a forecast or analysis file production ready.">
 
   
-  <link rel="alternate" hreflang="en-us" href="/tags/canvas/">
+  <link rel="alternate" hreflang="en-us" href="/post/r-excel-and-postgresql/">
 
   
 
@@ -86,15 +84,15 @@
   
 
   
-  <link rel="alternate" href="/tags/canvas/index.xml" type="application/rss+xml" title="JOSH P. SAWYER">
-  <link rel="feed" href="/tags/canvas/index.xml" type="application/rss+xml" title="JOSH P. SAWYER">
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="JOSH P. SAWYER">
+  <link rel="feed" href="/index.xml" type="application/rss+xml" title="JOSH P. SAWYER">
   
 
   <link rel="manifest" href="/site.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="/tags/canvas/">
+  <link rel="canonical" href="/post/r-excel-and-postgresql/">
 
   
   
@@ -109,19 +107,21 @@
   <meta property="twitter:creator" content="@joshpsawyer">
   
   <meta property="og:site_name" content="JOSH P. SAWYER">
-  <meta property="og:url" content="/tags/canvas/">
-  <meta property="og:title" content="canvas | JOSH P. SAWYER">
-  <meta property="og:description" content="Personal website of Josh P. Sawyer."><meta property="og:image" content="/img/joshpsawyer.png">
+  <meta property="og:url" content="/post/r-excel-and-postgresql/">
+  <meta property="og:title" content="R, Excel and PostgreSQL | JOSH P. SAWYER">
+  <meta property="og:description" content="I deal with a lot of numerical data at work, and because it&rsquo;s a corporate environment, that data comes more often than not in the form of an .xlsx or .csv file. As it gets passed around, it&rsquo;s manipulated to the point that it can no longer be trusted in terms of content. Creating the original file is also a very manual process. The less human-guided work which needs to be done to get a forecast or analysis file production ready."><meta property="og:image" content="/img/joshpsawyer.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="og:updated_time" content="2018-12-11T00:00:00&#43;00:00">
+  <meta property="article:published_time" content="2018-12-07T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2018-12-07T00:00:00&#43;00:00">
   
 
   
 
   
 
-  <title>canvas | JOSH P. SAWYER</title>
+  <title>R, Excel and PostgreSQL | JOSH P. SAWYER</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -217,7 +217,9 @@
 </nav>
 
 
+<article class="article" itemscope itemtype="http://schema.org/Article">
 
+  
 
 
 
@@ -234,37 +236,233 @@
 
   
   
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">R, Excel and PostgreSQL</h1>
+
+  
+  <p class="page-subtitle">Using R to get out of a corporate timesuck 🐱</p>
+  
+
   
     
-  
-<div class="universal-wrapper pt-3">
-  <h1 itemprop="name">canvas</h1>
+
+<div class="article-metadata">
 
   
+  
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Josh P. Sawyer">
+  </span>
+  
+
+  <span class="article-date">
+    
+    <meta content="2018-12-07 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+    <time datetime="2018-12-07 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+      Dec 7, 2018
+    </time>
+  </span>
+  <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Josh P. Sawyer">
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    3 min read
+  </span>
+  
+
+  
+  
+
+  
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder"></i>
+    
+    <a href="/categories/r/">R</a>
+    
+  </span>
+  
+  
+
+  
+  
+
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   
 </div>
 
 
 
-<div class="universal-wrapper">
-  
+  <div class="article-container">
 
-  
-  
-  <div>
-    <h2><a href="/post/a-space-invasion-for-christmas/">A Space Invasion for Christmas</a></h2>
-    <div class="article-style">
+    <div class="article-style" itemprop="articleBody">
       
-      A quick little tutorial overcoming some audio issues with Canvas & HTML5.
-      
+
+<p>I deal with a lot of numerical data at work, and because it&rsquo;s a corporate environment, that data comes more often than not in the form of an .xlsx or .csv file. As it gets passed around, it&rsquo;s manipulated to the point that it can no longer be trusted in terms of content. Creating the original file is also a very manual process. The less human-guided work which needs to be done to get a forecast or analysis file production ready.</p>
+
+<h1 id="the-current-workflow">The Current Workflow</h1>
+
+<p>Over the course of 10 minutes I&rsquo;ll pull down several large datasets using queries against a PostgreSQL database. It aggregates a lot of data but the output is confusing if you haven&rsquo;t had it explained before. I&rsquo;ll then spend the next 45 minutes with a previous analysis on one screen and the raw data on the other, rebuilding formulas and calculations to get the forecast into its preferred state. If a novel analysis is needed, add a few hours to figure out how to trick Excel into doing what you&rsquo;d like it to do.</p>
+
+<p>When I&rsquo;m done, I&rsquo;ve got a 10 megabyte excel file with almost 150 columns with, as an example, only the last 12 columns or so representing what I want: a rolling 12 month forecast. I then roll a d20 to see if the file crashes before I can save the final version. <i class="fas fa-dice-d20"></i></p>
+
+<p>The SQL query above consists of about 10-15 left joins and &ldquo;pivoted&rdquo; queries. I take dated transactional data, summarize it by month and then use <code>CASE ... END</code> to get the numbers into the correct columns. I recognize that you can use a dynamic method to create a true pivot but it&rsquo;s overkill when all I want to do is pivot a year&rsquo;s worth of transactional history and have the columns be month names relative to the current month.</p>
+
+<p>Between this ugly SQL manipulation and the time it takes to just build the excel formulas, there had to be a better way.</p>
+
+<h1 id="r-to-the-rescue">R to the Rescue!</h1>
+
+<p>I&rsquo;ve been using R for about a year, but it wasn&rsquo;t until JD Long&rsquo;s talk at the NorEast&rsquo;R Conference about corporate reporting that I thought to use at work. I had never used R for operation against an actual database before, instead dumping data to CSV, but I wanted to eliminate every manual step possible.</p>
+
+<h2 id="connect-to-postgresql">Connect to PostgreSQL</h2>
+
+<p>At the time of writing this, I found two easy ways to connect to PostgreSQL through R. This assumes that you&rsquo;re server is publicly accessible or you&rsquo;re on the same side of the corporate firewall / using a VPN.</p>
+
+<pre><code>I am
+a great
+code
+example
+dirrrr
+</code></pre>
+
+<h2 id="query-transactional-data">Query Transactional Data</h2>
+
+<h2 id="pivot-within-r">Pivot Within R</h2>
+
+<h2 id="join-along-common-key">Join Along Common Key</h2>
+
+<h2 id="add-excel-formulas">Add Excel Formulas</h2>
+
+<h2 id="output-to-excel">Output To Excel</h2>
+
     </div>
-  </div>
-  
 
-  
+    
 
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tags/r-markdown/">R Markdown</a>
+  
+  <a class="badge badge-light" href="/tags/rstudio/">RStudio</a>
+  
+  <a class="badge badge-light" href="/tags/education/">Education</a>
+  
 </div>
+
+
+
+    
+
+
+
+
+
+
+<div class="media author-card" itemscope itemtype="http://schema.org/Person">
+  
+  <img class="portrait mr-3" src="/img/joshpsawyer.png" itemprop="image" alt="Avatar">
+  
+  <div class="media-body">
+    <h5 class="card-title" itemprop="name"><a href="/">Josh P. Sawyer</a></h5>
+    <h6 class="card-subtitle">MESM Student</h6>
+    
+    <ul class="network-icon" aria-hidden="true">
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://twitter.com/joshpsawyer" target="_blank" rel="noopener">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://linkedin.com/in/joshpsawyer/" target="_blank" rel="noopener">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://github.com/joshpsawyer" target="_blank" rel="noopener">
+          <i class="fab fa-github"></i>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+
+
+
+    
+    
+
+    
+
+    
+
+
+  </div>
+</article>
+
 <div class="container">
   <footer class="site-footer">
   
@@ -431,6 +629,4 @@
 
   </body>
 </html>
-
-
 

@@ -14,17 +14,6 @@
     
     <item>
       <title>A Space Invasion for Christmas</title>
-      <link>/games/a-space-invasion-for-christmas/</link>
-      <pubDate>Tue, 11 Dec 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/games/a-space-invasion-for-christmas/</guid>
-      <description>This cool guy that I know reached out to me about a quick little project - A Christmas Themed Space Invaders - with a very quick turnaround time.
-Some googling lead to an MIT licensed Space Invaders by John Resig - who incidentally has a totally kick-ass project on Ukiyo-e.
-Swapping the sprites was a straightforward redefining of rects against a new spritesheet, but the original code had no sound effects.</description>
-    </item>
-    
-    <item>
-      <title>A Space Invasion for Christmas</title>
       <link>/post/a-space-invasion-for-christmas/</link>
       <pubDate>Tue, 11 Dec 2018 00:00:00 +0000</pubDate>
       
