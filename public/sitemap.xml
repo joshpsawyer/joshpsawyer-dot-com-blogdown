@@ -4,16 +4,32 @@
     
     <url>
     
-      <loc>/privacy/</loc>
-      <lastmod>2018-12-09T00:00:00-05:00</lastmod>
+      <loc>/games/</loc>
+      <lastmod>2018-12-11T00:00:00-05:00</lastmod>
     </url>
     
   
     
     <url>
     
-      <loc>/post/r-excel-and-postgresql/</loc>
-      <lastmod>2018-12-07T00:00:00+00:00</lastmod>
+      <loc>/games/a-space-invasion-for-christmas/</loc>
+      <lastmod>2018-12-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/post/a-space-invasion-for-christmas/</loc>
+      <lastmod>2018-12-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/privacy/</loc>
+      <lastmod>2018-12-09T00:00:00-05:00</lastmod>
     </url>
     
   
@@ -84,24 +100,8 @@
     
     <url>
     
-      <loc>/post/getting-started/</loc>
-      <lastmod>2018-01-13T00:00:00-05:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>/publication/person-re-id/</loc>
       <lastmod>2015-09-01T00:00:00-04:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/post/2015-07-23-r-rmarkdown/</loc>
-      <lastmod>2015-07-23T21:13:14-05:00</lastmod>
     </url>
     
   
@@ -127,15 +127,6 @@
     
       <loc>/publication_types/2/</loc>
       <lastmod>2015-09-01T00:00:00-04:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/academic/</loc>
-      <lastmod>2018-01-13T00:00:00-05:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -169,8 +160,8 @@
     
     <url>
     
-      <loc>/tags/education/</loc>
-      <lastmod>2018-12-07T00:00:00+00:00</lastmod>
+      <loc>/categories/games/</loc>
+      <lastmod>2018-12-11T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -205,33 +196,6 @@
     
     <url>
     
-      <loc>/categories/r/</loc>
-      <lastmod>2018-12-07T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/r-markdown/</loc>
-      <lastmod>2018-12-07T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/rstudio/</loc>
-      <lastmod>2018-12-07T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>/slides/</loc>
       <priority>0</priority>
     </url>
@@ -248,7 +212,7 @@
     <url>
     
       <loc>/tags/</loc>
-      <lastmod>2018-01-13T00:00:00-05:00</lastmod>
+      <lastmod>2016-04-27T00:00:00-04:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -256,8 +220,8 @@
     
     <url>
     
-      <loc>/tags/plot/</loc>
-      <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+      <loc>/tags/canvas/</loc>
+      <lastmod>2018-12-11T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -265,8 +229,17 @@
     
     <url>
     
-      <loc>/tags/regression/</loc>
-      <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+      <loc>/tags/html5/</loc>
+      <lastmod>2018-12-11T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/javascript/</loc>
+      <lastmod>2018-12-11T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

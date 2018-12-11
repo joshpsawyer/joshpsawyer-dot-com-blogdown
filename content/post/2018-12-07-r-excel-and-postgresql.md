@@ -6,6 +6,7 @@ date: '2018-12-07'
 slug: r-excel-and-postgresql
 categories: ["R"]
 tags: ["R Markdown", "RStudio", "Education"]
+draft: true
 ---
 
 I deal with a lot of numerical data at work, and because it's a corporate environment, that data comes more often than not in the form of an .xlsx or .csv file. As it gets passed around, it's manipulated to the point that it can no longer be trusted in terms of content. Creating the original file is also a very manual process. The less human-guided work which needs to be done to get a forecast or analysis file production ready.

@@ -7,19 +7,10 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 -0400</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Academic</title>
-      <link>/tags/academic/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
-      
-      <guid>/tags/academic/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Deep Learning</title>
@@ -40,47 +31,29 @@
     </item>
     
     <item>
-      <title>Education</title>
-      <link>/tags/education/</link>
-      <pubDate>Fri, 07 Dec 2018 00:00:00 +0000</pubDate>
+      <title>canvas</title>
+      <link>/tags/canvas/</link>
+      <pubDate>Tue, 11 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/education/</guid>
+      <guid>/tags/canvas/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>R Markdown</title>
-      <link>/tags/r-markdown/</link>
-      <pubDate>Fri, 07 Dec 2018 00:00:00 +0000</pubDate>
+      <title>html5</title>
+      <link>/tags/html5/</link>
+      <pubDate>Tue, 11 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/r-markdown/</guid>
+      <guid>/tags/html5/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>RStudio</title>
-      <link>/tags/rstudio/</link>
-      <pubDate>Fri, 07 Dec 2018 00:00:00 +0000</pubDate>
+      <title>javascript</title>
+      <link>/tags/javascript/</link>
+      <pubDate>Tue, 11 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/rstudio/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>plot</title>
-      <link>/tags/plot/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      
-      <guid>/tags/plot/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>regression</title>
-      <link>/tags/regression/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      
-      <guid>/tags/regression/</guid>
+      <guid>/tags/javascript/</guid>
       <description></description>
     </item>
     
