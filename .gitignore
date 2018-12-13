@@ -1,6 +1,6 @@
 # Don't track content of these folders
 public/
-
+.Rproj.user
 
 # Compiled source #
 .Rhistory
